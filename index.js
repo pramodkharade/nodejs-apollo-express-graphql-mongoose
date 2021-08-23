@@ -20,6 +20,7 @@ async function startServer() {
   await mongoose.connect("mongodb://localhost:27017/postDBGPL", {
     useUnifiedTopology: true,
     useNewUrlParser: true,
+    useFindAndModify: false,
   });
   console.log("Mongoose connected");
   app.listen(port, () => {

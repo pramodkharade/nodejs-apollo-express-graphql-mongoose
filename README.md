@@ -83,4 +83,12 @@ description
 }
 
 deletePost(id:"6123c67284ba6a58841c47db")
+
+updatePost(id:"6123bd6a8cc2067c943147c3",post:{
+title:" First Post update",
+description:" First new post update"
+}) {
+title,
+description
+}
 }
