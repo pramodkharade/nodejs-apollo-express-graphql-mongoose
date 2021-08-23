@@ -42,45 +42,45 @@ description
 
 # }
 
-delete Mutation
+#delete Mutation
 
-# query{
+query{
 
-# getAllPosts{
+getAllPosts{
 
-# id,
+id,
 
-# title
+title
 
-# }
+}
 
-# getPost(id:"6123bd6a8cc2067c943147c3") {
+getPost(id:"6123bd6a8cc2067c943147c3") {
 
-# title,
+title,
 
-# description
+description
 
-# }
+}
 
-# }
+}
 
 mutation{
 
-# createPost(post:{
+createPost(post:{
 
-# title:" Third Post ",
+title:" Third Post ",
 
-# description:" This is Third description"
+description:" This is Third description"
 
-# }){
+}){
 
-# id,
+id,
 
-# title,
+title,
 
-# description
+description
 
-# }
+}
 
 deletePost(id:"6123c67284ba6a58841c47db")
 }
