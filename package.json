@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-apollo-express-graphql-mongoose",
+  "version": "1.0.0",
+  "description": "graphql nodejs,express , mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramodkharade/nodejs-apollo-express-graphql-mongoose.git"
+  },
+  "author": "Pramod Kharade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pramodkharade/nodejs-apollo-express-graphql-mongoose/issues"
+  },
+  "homepage": "https://github.com/pramodkharade/nodejs-apollo-express-graphql-mongoose#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.1.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
