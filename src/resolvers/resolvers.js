@@ -7,6 +7,10 @@ const resolvers = {
     getAllPosts: async () => {
       return await Post.find({});
     },
+    getPost: async (parent, args, context, info) => {
+      const { id } = args;
+      return await Post.findById(id);
+    },
   },
   Mutation: {
     createPost: async (parent, args, context, info) => {
